@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>设置对象的边框位置</title>
+<style type="text/css">
+div
+{
+	width:100px;
+	height:50px;
+}
+#p1
+{	
+	position:relative;
+	left:20px;
+	top:5px;
+	background:#ccc;
+}
+#p2
+{
+	position:absolute;
+	right:20px;
+	top:45px;
+	background:#888;
+}
+#p3
+{	
+	position:absolute;
+	bottom:20px;	
+	background:#666;
+}
+</style>
+</head>
+<body>
+<div id="p1">
+这是第一个层，left:20px;top:5px;
+</div>
+<div id="p2">
+这是第二个层
+<br>right:20px;top:45px;。
+</div>
+<div id="p3">
+这是第三个层，bottom:20px;。
+</div>
+</body>
+</html>

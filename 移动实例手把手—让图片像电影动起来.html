@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>移动实例手把手—让图片像电影动起来</title>
+<style type="text/css">
+#movie
+{
+	margin:auto;
+	width:350px;	
+	height:280px;
+	border:1px solid #000000;
+	position:relative;
+	font-size:15px;
+	text-align:center;
+}
+#movieup
+{
+	width:100%;
+	height:50px;
+	position:absolute;
+	top:0px;
+	background:#000000;
+}
+#moviedown
+{
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	background:#000000;
+}
+</style>
+</head>
+<body>
+<div id="movie">
+	<div id="movieup"></div>
+	<marquee direction="up">
+		<p>
+			HTML+CSS完全自学手册
+		</p>
+		<p>
+			HTML+CSS完全自学手册
+		</p>
+		<p>
+			HTML+CSS完全自学手册
+		</p>
+		<p>
+			HTML+CSS完全自学手册
+		</p>
+	</marquee>
+	<div id="moviedown"></div>
+</div>
+</body>
+</html>

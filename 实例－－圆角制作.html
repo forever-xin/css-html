@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>实例－－圆角制作</title>
+<style type="text/css">
+body
+{
+background:yellow;
+}
+#p
+{
+	width:300px;
+	height:120px;
+	position:relative;
+	border:1px solid #a7a5a5;
+	background:#000000;
+	color:#ffffff;
+}
+#plefttop
+{
+	width:8px;
+	height:8px;
+	position:absolute;
+	left:-1px;
+	top:-1px;
+	background:url(bg.gif) no-repeat -2px -3px;
+}
+#prighttop
+{
+	width:8px;
+	height:8px;
+	position:absolute;
+	right:-1px;
+	top:-1px;
+	background:url(bg.gif) no-repeat -2px -32px;
+}
+#pleftbottom
+{
+	width:8px;
+	height:8px;
+	position:absolute;
+	left:-1px;
+	bottom:-1px;
+	background:url(bg.gif) no-repeat -2px -18px;
+}
+#prightbottom
+{
+	width:8px;
+	height:8px;
+	position:absolute;
+	right:-1px;
+	bottom:-1px;
+	background:url(bg.gif) no-repeat -3px -49px;
+}
+</style>
+</head>
+<body>
+<div id="p">
+	<div id="plefttop"></div><div id="prighttop"></div>
+	<p>
+		这个层是要设置成圆角，文字为白色，边框为黑色。用到的是这个圆角素材<img src="bg.gif">
+	</p>
+	<div id="pleftbottom"></div><div id="prightbottom"></div>
+</div>
+</body>
+</html>

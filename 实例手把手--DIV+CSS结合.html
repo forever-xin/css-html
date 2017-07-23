@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>实例手把手--DIV+CSS结合</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<style type="text/css">
+#mydiv
+{
+	width:300px;
+	height:100px;
+	border:1px solid yellow;
+	font-family:"黑体";
+}
+.myclassdiv
+{
+	width:400px;
+	height:120px;
+	border:1px solid orange;
+	font-family:"宋体";
+}
+</style>
+</head>
+<body>
+<div style="width:200px;height:80px;border:1px solid red;font-size:18px;color:blue;">
+	用内联方式修饰该层。
+</div>
+<div id="mydiv">
+	内部样式方式，用ID设置大小、字体和边框
+</div>
+<div class="myclassdiv">
+	内部样式方式，用类设置大小，字体和边框
+</div>
+<div id="fromout">
+	嵌入外部样式，用ID设置大小，字体和边框，边框为2像素
+</div>
+</body>
+</html>

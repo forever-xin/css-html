@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>决对定位实例</title>
+<style type="text/css">
+#p1
+{
+	width:250px;
+	height:200px;	
+	border:1px solid red;
+	position:relative;
+}
+#pp1
+{
+position:absolute;
+right:-10px;
+bottom:10px;
+width:120px;
+height:80px;
+border:1px solid blue;
+}
+#pp2
+{
+position:absolute;
+width:120px;
+height:80px;
+left:-10px;
+top:50px;	
+border:1px solid orange;
+}
+#pp3
+{
+position:absolute;
+width:120px;
+height:80px;
+border:1px solid green;
+}
+</style>
+</head>
+<body>
+<div id="p1">
+	<div id="pp1">
+	第一个层
+	</div>
+	<div id="pp2">	
+	第二个层
+	</div>
+	<div id="pp3">	
+	第三个层
+	</div>
+</div>
+</body>
+</html>

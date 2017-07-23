@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>设置垂直对齐</title>
+<style type = "text/css">
+<!--
+div
+{
+	height:40px;
+	border:1px solid #000000;
+}
+#base{
+	/*此为默认值*/
+	vertical-align:baseline;	
+}
+#sub{
+	/*设置垂直对齐方式为下标*/
+	vertical-align:sub;
+	font-size:0.5em;
+}
+#sup{
+	/*设置垂直对齐方式为上标*/
+	vertical-align:super;
+	font-size:0.5em;
+}
+#top{
+	/*设置垂直对齐方式为向上对齐*/
+	vertical-align:top;
+}
+#t-top{
+	/*设置为文字垂直向上对齐*/
+	vertical-align:text-top;
+}
+#mid{
+	/*设置垂直对齐方式为居中对齐*/
+	vertical-align:middle;
+}
+#bot{
+	/*设置垂直对齐方式为向下对齐*/
+	vertical-align:bottom;
+}
+#b-bot{
+	/*设置为文字垂直向下对齐*/
+	vertical-align:text-bottom;	
+}
+-->
+</style>
+</head>
+<body>
+<center>
+<font size = 5 color = red> vertical-align垂直对齐属性的应用效果</font>
+<table border = 4 height = 200>
+<tr bgcolor = lightgreen align = center>
+<td>设置vertical-align属性</td>
+<td>显示结果</td>
+<td>设置vertical-align属性</td>
+<td>显示结果</td>
+</tr>
+<tr>
+<td >vertical-align:sub</td>
+<td>c+o<font id = sub>2</font>—>co<font id = sub>2</font></td>
+<!-- 在font标签内利用id选择符，引用sub样式 -->
+<td>vertical-align:super</td>
+<td>a<font id = sup>2</font>+b<font id = sup>2</font>=c<font id = sup>2</font></td>
+<!-- 在font标签内利用id选择符，引用sub样式 -->
+</tr>
+<tr>
+<td id = top>vertical-align:top</td>
+<td id = top><img src="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用top样式 -->
+<td id = t-top>vertical-align:text-top</td>
+<td id = t-top><img src ="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用t-top样式 -->
+</tr>
+
+<tr>
+<td id = mid>vertical-align:middle</td>
+<td id = mid><img src ="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用mid样式 -->
+<td id = base>vertical-align:baseline</td>
+<td id = base ><img src ="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用base样式 -->
+</tr>
+
+<tr>
+<td id = bot>vertical-align:bottom </td>
+<td id = bot><img src ="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用bot样式 -->
+<td id = t-bot>vertical-align:text-bottom</td>
+<td id = t-bot><img src ="logo.jpg"></td>
+<!-- 在td标签内利用id选择符，引用t-bot样式 -->
+</tr>
+</table>
+</center>
+
+</body>
+</html>

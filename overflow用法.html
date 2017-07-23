@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>overflow用法</title>
+<style type="text/css">
+#overflow1
+{
+	width:180px;
+	height:80px;
+	overflow:visible ;
+}
+#overflow2
+{
+	width:180px;
+	height:80px;
+	overflow:auto;
+}
+#overflow3
+{
+	width:180px;
+	height:80px;
+	overflow:hidden;
+}
+#overflow4
+{
+	width:180px;
+	height:80px;
+	overflow:scroll ;
+}
+</style>
+</head>
+<body>
+下面图片是第一层：overflow设置为visible<br>
+<div id="overflow1">
+	<img src="html.jpg" />
+</div>
+下面图片是第二层：overflow设置为auto<br>
+<div id="overflow2">
+	<img src="html.jpg" />
+</div>
+下面图片是第三层：overflow设置为hidden<br>
+<div id="overflow3">
+	<img src="html.jpg" />
+</div>
+下面图片是第四层：overflow设置为scroll<br>
+<div id="overflow4">
+	<img src="html.jpg" />
+</div>
+</body>
+</html>

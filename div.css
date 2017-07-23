@@ -1,0 +1,58 @@
+/* CSS Document */
+
+body { 
+	margin: 0px;
+	height:100%;
+	padding: 0px
+	background:#FEFEFE no-repeat right bottom;
+	font-family: ¡®Lucida Grande¡¯,¡¯Lucida Sans Unicode¡¯,¡¯ËÎÌå¡¯£¬arial,verdana,sans-serif;
+	color:#666;
+	font-size:12px;
+	line-leight:150%;
+}
+#mainbox{
+	 MARGIN:auto; 
+	 BORDER: 0px;
+	 BACKGROUND: #fff;
+	 WIDTH: 778px;
+	 
+}
+#left{ 
+	width: 200px;
+	height:400px;
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	background: #CDCDCD;
+}
+#middle {	
+	padding:0px;
+	float:left;
+	width:200px;
+	height:400px;
+	background: #DADADA;
+}
+#right{
+	width:378px;
+	float:left;
+	height:400px;
+	background: #cccccc;
+}
+#header{
+	 MARGIN: auto;
+	 BORDER: 0px;
+	 BACKGROUND: #ccd2de;
+	 WIDTH: 778px;
+	 HEIGHT:60px;
+	 border:1px solid #000000;
+}
+#footer{
+	position:absolute;
+	bottom:0px;
+ 	CLEAR: both;  
+  	 PADDING: 5px 0px 5px 0px; 
+   	BACKGROUND: #ccd2de; 
+    WIDTH: 778px;
+    HEIGHT:40px;
+ }
+

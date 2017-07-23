@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>margin实例--设置层与层的距离</title>
+<style type="text/css">
+#mybody
+{ 
+	/*设置网页中层容器*/
+	width:778px;/*宽为778像素*/
+	margin:auto; /*容器层上右下左的外补丁为自动*/
+	font-size:14px; /*字体大小为14像素*/
+	border:0; /*设置容器层边框为0*/
+}
+div
+{
+	/*设置所有的层为1像素为红色实线*/
+	border:1px solid red;
+}
+#header
+{
+	/*设置头部层属性*/
+	margin: auto; /*设置上右下左外补丁都为5像素*/
+	width:100%; /*设置宽度为100%*/
+	height:80px; /*设置高度为80像素*/
+	margin:5px 0px;
+}
+#contentleft
+{
+	/*设置*/
+	width:180px;
+	height:450px;
+	float:left;
+}
+#contentcenter
+{
+	width:410px;
+	height:450px;
+	float:left;
+	margin-left:6px;
+}
+#contentright
+{
+	width:170px;
+	height:450px;
+	float:right;
+	margin-left:6px;
+}
+#bottom
+{
+	width:100%;
+	margin:5px auto;
+	height:60px;
+}
+</style>
+</head>
+<body>
+<div id="mybody">
+	<div id="header">
+		这是网页头部，放一些logo，宣传栏之类
+	</div>
+	<div id="contentright">
+		内容右栏
+	</div>
+	<div id="contentleft">
+		网页内容左栏
+	</div>
+	<div id="contentcenter">
+		内容中间栏
+	</div>	
+	<div id="bottom">
+		网页底部
+	</div>
+</div>
+</body>
+</html>
